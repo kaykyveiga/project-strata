@@ -5,17 +5,9 @@
         background-position: center center;
     }
 
-    .main-content {
-        height: 60vh;
-        width: 100%;
-        margin-top: 65%;
-        margin-left: 10px;
-        padding-right: 0px;
-    }
-
     .image-profile {
         margin-top: 10px;
-        margin-right: 300px;
+        margin-bottom: 5px;
         box-sizing: border-box;
     }
 
@@ -23,7 +15,19 @@
         margin-top: 0px;
     }
 
+    .main-content {
+        height: 60vh;
+        width: 100%;
+        margin-top: 320px;
+        margin-left: 10px;
+        padding-right: 0px;
+    }
+
     .recent-works-card {
         margin: 10px 0px;
+    }
+
+    .contact-address-text{
+        padding-bottom: 5px;
     }
 }
