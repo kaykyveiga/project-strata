@@ -20,8 +20,7 @@ body {
     left: 0;
     height: 100%;
     width: 40%;
-    background-image: url(../images/overlay.png), url(../images/bg.jpg);
-    background-position: left top;
+    background: url(../images/overlay.png), url(../images/bg.jpg) left top;
     background-size: auto, cover;
     box-sizing: border-box;
     text-align: right;
