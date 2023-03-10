@@ -109,31 +109,21 @@ body {
 
 }
 
-.contact-form {
-    width: 60%;
+.gridConteiner{
+    width: 100%;
+    display: grid;
     float: left;
-    margin: 10px 10px 0px 0px;
-}
-
-.name {
-    width: 48%;
-    float: left;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2;
+    row-gap: 10px;
+    column-gap: 5px;
     color: #666260;
-    margin-right: 4%;
-}
+   }
+   .gridItem{
+    padding: 0px 10px 10px 0px;
+   }
 
-.email {
-    color: #666260;
-    width: 48%;
-    float: left;
-}
-
-.message {
-    color: #666260;
-    clear: both;
-}
-
-.form-elements {
+   .input{
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
@@ -141,22 +131,19 @@ body {
     border-radius: 5px;
     border: transparent;
     background-color: #80808086;
-}
-
-.form-elements:hover{
+   }
+   .input:hover{
     border: 2px solid #1385FF;
-}
-
-.contact-address {
-    height: 100%;
-    width: 35%;
-    float: left;
-    margin: 10px 0px;
-}
-
-.contact-address-text {
-    box-sizing: border-box;
+   }
+   
+   .gridItem:nth-child(3){
+    grid-row: span 2;
     padding-bottom: 20px;
-    color: #666260;
-}
+   }
+   .gridItem:nth-child(3) p{
+    padding-bottom: 10%;
+   }
+   .gridItem:nth-child(4){
+    grid-column: span 2;
 
+   }

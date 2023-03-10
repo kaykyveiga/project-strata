@@ -93,48 +93,43 @@
                 voluptatum nemo fugit molestiae cupiditate ullam vitae ducimus maxime distincti.</p>
 
 
-            <div class="conteiner">
-
-                <div class="contact-form">
-                    <form action="#" method="post">
-                        <div class="personal-data">
-                            <div class="name">
-                                <label for="name">Name</label> <br>
-                                <input type="text" name="name" id="name" class="form-elements" placeholder="Name">
-                            </div>
-                            <div class="email">
-                                <label for="email">Email</label> <br>
-                                <input type="email" name="email" id="email" class="form-elements" placeholder="Email">
-                                <br>
-                            </div>
-
+                <form action="#" method="post">
+                    <div class="gridConteiner">
+                        <div class="gridItem">
+                            <label for="name">Name</label> <br>
+                            <input class="input" type="text" name="name" placeholder="Name">
                         </div>
-                        <div class="message">
+                
+                        <div class="gridItem">
+                            <label for="email">Email</label> <br>
+                            <input class="input" type="email" name="email" id="email" placeholder="Email">
+                        </div>
+                
+                        <div class="gridItem">
+                            <address>
+                                <p>
+                                    <span>Address:</span>
+                                    123 Somewhere Rd. Nashville, Tn 000000 United States
+                                </p>
+                                <p>
+                                    <span>Tel:</span>
+                                    000-000-000
+                                </p>
+                                <p>
+                                    <span>Email:</span>
+                                    email@server.com
+                                </p>
+                            </address>
+                        </div>
+                        <div class="gridItem">
                             <label for="message">Type your message</label> <br>
-                            <textarea name="message" id="message" cols="30" rows="5" class="form-elements"
-                                placeholder="Message"></textarea> <br>
+                            <textarea class="input" name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
                             <input class="button" type="submit" value="Send Message">
                         </div>
-                    </form>
-                </div>
-
-                <div class="contact-address">
-                    <address>
-                        <p class="contact-address-text">
-                            <span>Address:</span>
-                            123 Somewhere Rd. Nashville, Tn 000000 United States
-                        </p>
-                        <p class="contact-address-text">
-                            <span>Tel:</span>
-                            000-000-000
-                        </p>
-                        <p class="contact-address-text">
-                            <span>Email:</span>
-                            email@server.com
-                        </p>
-                    </address>
-                </div>
-            </div>
+                
+                
+                    </div>
+                </form>
         </section>
     </main>
     </body>
