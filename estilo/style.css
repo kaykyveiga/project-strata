@@ -92,12 +92,12 @@ body {
     box-sizing: border-box;
 }
 
-.recent-works-title{
+.recent-works-title {
     text-transform: uppercase;
     font-size: 13px;
 }
 
-.recent-works-text{
+.recent-works-text {
     font-size: 13px;
     color: rgb(110, 104, 104);
 }
@@ -109,21 +109,22 @@ body {
 
 }
 
-.gridConteiner{
+.gridConteiner {
     width: 100%;
     display: grid;
     float: left;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2;
     row-gap: 10px;
     column-gap: 5px;
     color: #666260;
-   }
-   .gridItem{
-    padding: 0px 10px 10px 0px;
-   }
+}
 
-   .input{
+.gridItem {
+    padding: 0px 10px 10px 0px;
+}
+
+.input {
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
@@ -131,19 +132,21 @@ body {
     border-radius: 5px;
     border: transparent;
     background-color: #80808086;
-   }
-   .input:hover{
+}
+
+.input:hover {
     border: 2px solid #1385FF;
-   }
-   
-   .gridItem:nth-child(3){
+}
+
+.gridItem:nth-child(3) {
     grid-row: span 2;
     padding-bottom: 20px;
-   }
-   .gridItem:nth-child(3) p{
-    padding-bottom: 10%;
-   }
-   .gridItem:nth-child(4){
-    grid-column: span 2;
+}
 
-   }
+.gridItem:nth-child(3) p {
+    padding-bottom: 10%;
+}
+
+.gridItem:nth-child(4) {
+    grid-column: span 2;
+}
